@@ -1,0 +1,141 @@
+body{
+  /* background-image: url('https://images.pexels.com/photos/5632402/pexels-photo-5632402.jpeg?auto=compress&cs=tinysrgb&w=600');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; */
+  /* Center the background image */
+  /* height: 100vh;  */
+  /* margin: 0;  */
+  
+  /* font-family: Arial, sans-serif;  */
+  
+}
+.nav-ul li{
+  display: inline-block;
+  padding: 10px;
+  
+
+}
+.nav-ul li a{
+  color: #fff;
+  padding: 5px;
+  text-decoration: none;
+}
+.nav-ul {
+  padding: 5px;
+  margin:0px;
+  background-color: #09769af4;
+  /* background-color: blue; */
+}
+.Footer{
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    background-color: #09769af4;
+    /* background-color: blue; */
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+.Signup,.product{
+  margin-left: 38%;
+}
+.Login{
+  margin-left: 38%;
+}
+.register {
+  margin-left: 100px;
+}
+.login{
+  margin-left: 100px;
+}
+.nav-right{
+  text-align: right;
+}
+.logo{
+  width: 55px;
+  float:left;
+  border-radius:50%;
+  margin-top: 4px;
+  margin-left: 20px;
+}
+.inputBox{
+  display: block;
+    margin: 25px;
+    padding: 7px;
+    width: 300px;
+    border: 1px solid #09769af4;
+}
+.loginbutton{
+  margin: 25px;
+  padding: 10px;
+  width:150px;
+  background-color: #09769af4;
+  /* background-color: blue; */
+  border: 1px solid;
+  cursor: pointer;
+}
+.product-list{
+  text-align: center;
+  margin-top: 50px;
+
+}
+.product-list ul li{
+  display: inline-block;
+  border: 1.7px solid #9a0965f4;
+  padding: 5px;
+  width:150px;
+}
+.search-box{
+  width:400px;
+  margin: 20px;
+  height: 40px;
+  padding-left: 200px;
+  border:1.7px solid #9a0965f4;
+  border-radius: 15%;
+}
+.product-list ul{
+  margin: 0px;
+}
+.invalid-input{
+ color: red;
+ margin-top:-27px;
+ display:block;
+ margin-left:24px;
+}
+.appbutton{
+  margin: 25px;
+  padding: 10px;
+  width:150px;
+  background-color: #09769af4;
+  /* background-color: blue; */
+  border: 1px solid;
+  cursor: pointer;
+}
+.App-header {
+  background-color: #282c34;
+  /* background-color: blue; */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: rgb(251, 123, 97);
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

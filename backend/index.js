@@ -10,7 +10,13 @@ const jwtKey='singh-collections';
 const app=express()
 
 app.use(express.json());
-app.use(cors());
+app.use(cors(
+    {
+        origin:["https://deploy-mern-1whq.vercel.app"],
+        method:["POST","GET"],
+        credentials:true
+    }
+));
 
 app.post( '/register',async (req,res)=>{
     let user=new User(req.body);
